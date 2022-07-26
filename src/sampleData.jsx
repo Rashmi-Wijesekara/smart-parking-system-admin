@@ -206,7 +206,3 @@ export const employeeData = [
 		phoneNo: "0778435523",
 	},
 ];
-
-export const creditManagementData = [
-	
-];
