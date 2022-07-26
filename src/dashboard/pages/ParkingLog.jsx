@@ -1,5 +1,6 @@
 import React from "react";
 
+import Navbar from "../../shared/components/Navbar";
 import Table from "../../shared/components/Table";
 import SearchForm from "../../shared/components/SearchForm"
 import * as sampleData from "../../sampleData";
