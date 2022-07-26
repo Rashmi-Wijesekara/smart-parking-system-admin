@@ -1,6 +1,7 @@
 import React from "react";
 
 import Table from "../../shared/components/Table";
+import SearchForm from "../../shared/components/SearchForm"
 import * as sampleData from "../../sampleData";
 
 const ParkingLog = () => {
@@ -16,6 +17,9 @@ const ParkingLog = () => {
 							titles={parkingLogTitles}
 							data={parkingLogData}
 						/>
+					</div>
+					<div className="flex-col items-center justify-items-center mx-10">
+						<SearchForm />
 					</div>
 				</div>
 			</div>
