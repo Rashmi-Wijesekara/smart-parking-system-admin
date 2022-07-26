@@ -15,7 +15,6 @@ const Navbar = (props) => {
 
 	return (
 		<div className="bg-white w-[270px] h-screen flex-none z-100 shadow fixed">
-            <Navbar path="/parking-log" /> 
 			<div className="flex flex-row items-center w-fit mx-auto p-3">
 				<LogoIcon className="mr-4" />
 				<div className="font-logoText font-bold text-lg text-navbarLogoText">
@@ -106,4 +105,3 @@ const Navbar = (props) => {
 
 export default Navbar;
 
-//If you want to see search card and table please remove 18th line

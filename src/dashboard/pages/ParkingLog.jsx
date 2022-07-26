@@ -11,6 +11,7 @@ const ParkingLog = () => {
 
 	return (
 		<div className="flex flex-row">
+			<Navbar path="/parking-log" />
 			<div className="bg-background flex-grow pl-[270px] h-screen">
 				<div className="flex flex-row mt-4 overflow-y-auto h-5/6">
 					<div className="grow px-6">
@@ -30,3 +31,4 @@ const ParkingLog = () => {
 
 export default ParkingLog;
 
+//If you want to see search card and table please remove 14th line

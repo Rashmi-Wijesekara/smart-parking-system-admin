@@ -6,7 +6,10 @@ import ParkingLog from "./dashboard/pages/ParkingLog";
 
 function App() {
     return (
-			<ParkingLog />        
+        <div>
+            <ParkingLog />   
+        </div>
+			     
     );
 }
 
