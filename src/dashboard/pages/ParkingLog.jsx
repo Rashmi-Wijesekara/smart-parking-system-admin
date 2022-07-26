@@ -4,10 +4,19 @@ import Navbar from "../../shared/components/Navbar";
 import Table from "../../shared/components/Table";
 import SearchForm from "../../shared/components/SearchForm"
 import * as sampleData from "../../sampleData";
+import Auth from "../../shared/Auth";
+import { useHistory } from "react-router-dom";
 
 const ParkingLog = () => {
 	const parkingLogData = sampleData.parkingLogData
 	const parkingLogTitles = sampleData.parkingLogTitles
+
+	let history = useHistory();
+
+
+	Auth.login(() => {
+		history.push("/parking-log")
+	}, 123, "abc")
 
 	return (
 		<div className="flex flex-row">
