@@ -86,19 +86,23 @@ const Navbar = (props) => {
 						<ParkingIcon />
 					</NavbarButton>
 
-				</div>
-			</div>
+				</div>					
+			</div>		
 
-			<div className="mx-auto w-fit mt-[90%]">
-				{/* logout */}
-				<NavbarButton
-					name="Log out"
-					path="/logout"
-					currentPath={checkPath}
-				>
-					<ProfileIcon />
-				</NavbarButton>
-			</div>
+			<div className="">
+
+					<div className="mx-auto w-fit mt-[40%]">
+
+						{/* logout */}
+						<NavbarButton
+							name="Log out"
+							path="/logout"
+							currentPath={checkPath}
+						>
+							<ProfileIcon />
+						</NavbarButton>
+					</div>			
+			</div>		
 		</div>
 	);
 };
