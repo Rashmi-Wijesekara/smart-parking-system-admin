@@ -1,11 +1,14 @@
-import './App.css';
+import React from "react";
+import "./App.css";
+import EmployeeData from "./Dashboard/Pages/EmployeeData";
 
 function App() {
-  return (
-    <div className="App">
-      <div className="font-bold text-red-500 text-xl">hello world</div>
-    </div>
-  );
+    return (
+        <div>
+            <EmployeeData />
+        </div>
+			     
+    );
 }
 
 export default App;
