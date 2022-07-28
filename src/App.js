@@ -7,7 +7,7 @@ import {
 } from "react-router-dom";
 
 import "./App.css";
-
+import Dashboard from "./dashboard/pages/Dashboard";
 import EmployeeData from "./dashboard/pages/EmployeeData"
 import ParkingLog from "./dashboard/pages/ParkingLog";
 import Login from "./login/pages/Login";
@@ -19,7 +19,11 @@ function App() {
 			    <Route path="/" exact>
 					<Login />
 				</Route>
-
+				<Route
+					exact
+					path="/dashboard"
+					component={Dashboard}
+				/>
 				<Route
 					exact
 					path="/employee-data"
