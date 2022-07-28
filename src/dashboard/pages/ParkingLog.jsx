@@ -42,4 +42,3 @@ const ParkingLog = () => {
 
 export default ParkingLog;
 
-//If you want to see search card and table please remove 14th line
