@@ -51,9 +51,9 @@ const LoginForm = (props) => {
 			)}
 			<Form
 				inputNames={InputNames}
-				forgot={true}
+				// forgot={true}
 				onSubmit={formSubmitHandler}
-				forgotPathTo={"/password-reset"}
+				// forgotPathTo={"/password-reset"}
 				btnName="Login"
 				loginStatus={false}
 			/>
