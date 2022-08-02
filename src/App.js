@@ -7,11 +7,15 @@ import {
 } from "react-router-dom";
 
 import "./App.css";
-
+import Login from "./login/pages/Login";
 
 function App() {
 	return (
-		<div className=""></div>
+		<Router>
+			<Route path="/" exact>
+				<Login />
+			</Route>
+		</Router>
 	);
 }
 
