@@ -28,14 +28,14 @@ export const shiftLogData = [
 		startTime: "05.28 pm",
 		endTime: "08.28 am",
 	},
-]
+];
 
 export const shiftLogTitles = [
-		"Date",
-		"Shift Type",
-		"Shift Start Time",
-		"Shift End Time",
-]
+	"Date",
+	"Shift Type",
+	"Shift Start Time",
+	"Shift End Time",
+];
 
 // parking log
 export const parkingLogTitles = [
@@ -44,8 +44,8 @@ export const parkingLogTitles = [
 	"Vehicle ID",
 	"IN/OUT",
 	"Date",
-	"Time"
-]
+	"Time",
+];
 
 export const parkingLogData = [
 	{
@@ -180,7 +180,7 @@ export const employeeTitles = [
 	"Employee ID",
 	"Name",
 	"Vehicle ID",
-	"Phone No."
+	"Phone No.",
 ];
 
 export const employeeData = [
@@ -188,7 +188,7 @@ export const employeeData = [
 		id: "1",
 		employeeId: "000294392",
 		name: "M.R. Perera",
-		vehicleId: "CDB 4306",
+		vehicleId: ["CDB 4306", "CDB 4305"],
 		phoneNo: "0778435221",
 	},
 	{
