@@ -60,12 +60,12 @@ class Auth {
 		return loginData ? loginData : demoData;
 	}
 
-	login(cb, id, pswd, officer) {
+	login(cb, id, pswd) {
 		this.authenticated = true;
 		this.saveSession(true);
 		this.saveLoginData(id, pswd);
 
-		this.saveOfficerFullData(officer);
+		// this.saveOfficerFullData(officer);
 		cb();
 		// callback function
 	}

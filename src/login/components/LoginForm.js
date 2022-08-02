@@ -24,7 +24,7 @@ const LoginForm = (props) => {
 
 		console.log(input1);
 		console.log(input2);
-		
+
 		if (input1 === id && input2 === password) {
 			console.log("successfully logged-in");
 			setError("");
@@ -35,7 +35,7 @@ const LoginForm = (props) => {
 			// console.log("shift log =>")
 			// console.log(shiftLog);
 
-			// props.loginHandler(input1, input2, officer);
+			props.loginHandler(input1, input2);
 		}else {
 			console.log("wrong id & password");
 			setError("Invalid ID & Password");
