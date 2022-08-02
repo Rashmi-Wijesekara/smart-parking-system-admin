@@ -7,40 +7,11 @@ import {
 } from "react-router-dom";
 
 import "./App.css";
-import Dashboard from "./dashboard/pages/Dashboard";
-import EmployeeData from "./dashboard/pages/EmployeeData"
-import ParkingLog from "./dashboard/pages/ParkingLog";
-import Login from "./login/pages/Login";
+
 
 function App() {
 	return (
-		<Router>
-			<Switch>
-			    <Route path="/" exact>
-					<Login />
-				</Route>
-				<Route
-					exact
-					path="/dashboard"
-					component={Dashboard}
-				/>
-				<Route
-					exact
-					path="/employee-data"
-					component={EmployeeData}
-				/>
-				<Route
-					exact
-					path="/parking-log"
-					component={ParkingLog}
-				/>
-				
-				
-				
-				<Route path="/error">404 not found</Route>
-				<Redirect to="/error" />
-			</Switch>
-		</Router>
+		<div className=""></div>
 	);
 }
 
