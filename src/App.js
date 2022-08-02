@@ -1,16 +1,18 @@
 import React from "react";
+import {
+	BrowserRouter as Router,
+	Route,
+	Redirect,
+	Switch,
+} from "react-router-dom";
+
 import "./App.css";
-import EmployeeData from "./Dashboard/Pages/EmployeeData";
-import ParkingLog from "./Dashboard/Pages/ParkingLog";
+
 
 function App() {
-    return (
-        <div>
-            {/* <EmployeeData /> */}
-            <ParkingLog />
-        </div>
-			     
-    );
+	return (
+		<div className=""></div>
+	);
 }
 
 export default App;
