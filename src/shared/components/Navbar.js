@@ -39,7 +39,6 @@ const Navbar = (props) => {
 				</div>
 
 				<div className="mx-auto w-fit flex-col my-2">
-
 					{/* employee data */}
 					<NavbarButton
 						name="Employee Data"
@@ -57,19 +56,36 @@ const Navbar = (props) => {
 					>
 						<ParkingIcon />
 					</NavbarButton>
+				</div>
+			</div>
 
-					{/* profile */}
+			<div className="">
+				<div className="font-logoText text-sm text-textGreyLight w-[220px] mx-auto mt-20">
+					Accounting System
+				</div>
+
+				<div className="mx-auto w-fit flex-col my-2">
+					{/* employee data */}
 					<NavbarButton
-						name="My Profile"
-						path="/profile"
+						name="Credit Management"
+						// path="/employee-data"
 						currentPath={checkPath}
 					>
-						<ProfileIcon />
+						<EmployeeIcon />
+					</NavbarButton>
+
+					{/* parking log */}
+					<NavbarButton
+						name="Analytics"
+						// path="/parking-log"
+						currentPath={checkPath}
+					>
+						<ParkingIcon />
 					</NavbarButton>
 				</div>
 			</div>
 
-			<div className="mx-auto w-fit mt-[90%]">
+			<div className="mx-auto w-fit mt-[40%]">
 				{/* logout */}
 				<NavbarButton
 					name="Log out"
